@@ -54,7 +54,7 @@ body {
   float: left;
   background-color: rgba(225, 225, 225, .9);
   margin-top: 75px;
-  margin-left: 15%;
+  margin-left: 10%;
   width: 500px;
   height: 425px;
 }
@@ -63,7 +63,7 @@ body {
   float: right;
   background-color: rgba(225, 225, 225, .9);
   margin-top: 75px;
-  margin-right: 15%;
+  margin-right: 10%;
   width: 500px;
   height: 425px;
 }
