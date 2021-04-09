@@ -1,13 +1,14 @@
 
 // variables
 var letsCookButton = document.querySelector(".lets-cook-button")
+var cookPot = document.querySelector("img")
 var youShouldMakeText = document.querySelector(".you-should-make")
-var cookpot = document.querySelector("img")
 var dishText = document.querySelector(".dish-text")
-)
+
+
 
 // event listeners
-letsCookButton.addEventListener("click", displayChosenDish, reveal)
+letsCookButton.addEventListener("click", displayChosenDish)
 
 //event handlers
 
@@ -26,10 +27,10 @@ function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
 
-function reveal() {
-  cookpot.classList.add("hidden")
-  youShouldMakeText.classList.remove("hidden")
-}
+// function revealAndHide() {
+//   cookPot.classList.add("hidden")
+//   youShouldMakeText.classList.remove("hidden")
+// }
 
 function displayChosenDish() {
   var chosenCourse = getRadioValue()
@@ -43,7 +44,9 @@ function displayChosenDish() {
   }
   var randomIndex = getRandomIndex(courseList)
   var displayedDish = courseList[randomIndex]
-  dishText.innerText.add(displayedDish)
+  cookPot.classList.add("hidden")
+  youShouldMakeText.classList.remove("hidden")
+  dishText.innerText = `${(displayedDish)}!`
 };
 
 //hide - cookpot
