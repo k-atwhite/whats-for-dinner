@@ -1,17 +1,14 @@
 
-// variables
+// VARIABLES
 var letsCookButton = document.querySelector(".lets-cook-button")
 var cookPot = document.querySelector("img")
 var youShouldMakeText = document.querySelector(".you-should-make")
 var dishText = document.querySelector(".dish-text")
 
-
-
-// event listeners
+// EVENT LISTENERS
 letsCookButton.addEventListener("click", displayChosenDish)
 
-//event handlers
-
+// EVENT HANDLERS
 function getRadioValue() {
   var value
   var radios = document.getElementsByName("meal-type")
@@ -27,10 +24,10 @@ function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
 
-// function revealAndHide() {
-//   cookPot.classList.add("hidden")
-//   youShouldMakeText.classList.remove("hidden")
-// }
+function revealAndHide() {
+  cookPot.classList.add("hidden")
+  youShouldMakeText.classList.remove("hidden")
+}
 
 function displayChosenDish() {
   var chosenCourse = getRadioValue()
@@ -44,17 +41,6 @@ function displayChosenDish() {
   }
   var randomIndex = getRandomIndex(courseList)
   var displayedDish = courseList[randomIndex]
-  cookPot.classList.add("hidden")
-  youShouldMakeText.classList.remove("hidden")
+  revealAndHide()
   dishText.innerText = `${(displayedDish)}!`
 };
-
-//hide - cookpot
-// reveal you should Make
-//toggle!
-
-  // change inner text of "".your-meal-here" to displayedDish
-  //hide "your-meal-here"
-  //reveal after button clicked
-  // reveal smaller fot "You should make":
-  //larger font displayedDish
