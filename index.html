@@ -15,23 +15,26 @@
   <body>
       <div class="meal-form-box">
         <h5 class="search-phrase"> What are you looking for?</h4>
-        <input type="radio" name="meal type" value="side" /> Side
+        <input type="radio" name="meal-type" value="sides" /> Side
         <br>
         <br>
-        <input type="radio" name="meal type" value="main-dish" /> Main Dish
+        <input type="radio" name="meal-type" value="mains" /> Main Dish
         <br>
         <br>
-        <input type="radio" name="meal type" value="dessert" /> Dessert
+        <input type="radio" name="meal-type" value="desserts" /> Dessert
         <br>
         <br>
-        <input type="radio" name="meal type" value="entire-meal" /> Entire Meal
+        <input type="radio" name="meal-type" value="entire" /> Entire Meal
         <br>
         <br>
         <input class="lets-cook-button" type="submit" name="lets-cook" value="LET'S COOK!">
       </div>
       <div class="display-meal-box">
         <img src="./assets/cookpot.svg" alt="cookpot">
+        <p class="you-should-make hidden">You Should Make:</p>
+        <p class="dish-text"></p>
       </div>
   </body>
+  <script type="text/javascript" src="./data.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </html>
