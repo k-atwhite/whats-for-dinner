@@ -32,15 +32,25 @@ function revealAndHide() {
 function displayChosenDish() {
   var chosenCourse = getRadioValue()
   var courseList
-  if(chosenCourse === "sides") {
-    courseList = sides
-  }else if (chosenCourse === "mains") {
-    courseList = mains
-  }else {
-    courseList = desserts
+  if (chosenCourse === "entire") {
+    var randomSideIndex = getRandomIndex(sides)
+    var randomSide = sides[randomSideIndex]
+    var randomMainIndex = getRandomIndex(mains)
+    var randomMain = mains[randomMainIndex]
+    var randomDessertIndex = getRandomIndex(desserts)
+    var randomDessert = desserts[randomDessertIndex]
+    displayedDish = `${randomSide} with a side of ${randomMain} and ${randomDessert} for dessert`
+  } else {
+    if(chosenCourse === "sides") {
+      courseList = sides
+    }else if (chosenCourse === "mains") {
+      courseList = mains
+    }else if (chosenCourse === "desserts") {
+      courseList = desserts
+    }
+    var randomIndex = getRandomIndex(courseList)
+    var displayedDish = courseList[randomIndex]
   }
-  var randomIndex = getRandomIndex(courseList)
-  var displayedDish = courseList[randomIndex]
   revealAndHide()
   dishText.innerText = `${(displayedDish)}!`
-};
+}
