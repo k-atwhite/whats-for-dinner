@@ -14,7 +14,6 @@ Please delete options that are not relevant.
 
 ## How Has This Been Tested?
 - [ ] open index.html
-- [ ] Test B
 
 
 ## Checklist:
