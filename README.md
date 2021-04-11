@@ -1,23 +1,52 @@
 # What's for Dinner?
 
-## Overview
-
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
-
-## Learning Goals
-
+## Project Overview
+Project Goals:
 - Gain experience building an application that utilizes HTML, CSS and JavaScript
 - Write HTML and CSS to match a provided comp
 - Understand how to listen to and respond to user events
 - Individualize your programming skill set
 
-## Setup
+In this project, I had the opportunity to build a small website from a comp. Using HMTL,
+CSS, and JavaScript, I built the
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals.
+
+## Contributors
+[Kat White](https://github.com/k-atwhite)
+
+## Table of Contents
+
+
+## How to use the app
+### [View in your browser](https://k-atwhite.github.io/whats-for-dinner/)
+
+Entering this website will take you to our homepage. Here, you can choose the course you're looking to make: sides dishes, main dishes, deserts, and even all three with the option entire meal.
+![Home Page](https://user-images.githubusercontent.com/49215782/114321464-1cb26980-9ad8-11eb-9f64-0997873f1d95.png)
+
+
+Once you select your course, go ahead and press the "Let's Cook!" button underneath your selection.
+![meal selection](https://user-images.githubusercontent.com/49215782/114321471-20de8700-9ad8-11eb-9cfa-ce2c4eb60b81.png)
+
+You'll see displayed on the right a randomly selected course, or in the below example, and entire meal of randomly selected courses. You can keep cooking "Let's Cook!" to continue displaying random courses until you find one that inspires you.
+![Displayed Meal](https://user-images.githubusercontent.com/49215782/114321472-21771d80-9ad8-11eb-8899-d33c8b89a21c.png)
+
+If you would like to start over from a clean slate - press the clear button, which will remove the random course and bring back the image of a cookpot.
+![Clear Button](https://user-images.githubusercontent.com/49215782/114321469-2045f080-9ad8-11eb-8af6-436109809f3f.png)
+
+And then, you're back to the home page!
+![Home Page](https://user-images.githubusercontent.com/49215782/114321464-1cb26980-9ad8-11eb-9f64-0997873f1d95.png)
+
+
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+
+
+## Future Additions
+There are so many ways to grow this site. Several examples could be:
+* A form where a use can add their own recipe to the mix
+* An option to save their favorite courses and then delete courses they no long want saved
+* An option to see all the available courses listed simultaneously
+* An option to link the recipe name to a complete recipe
