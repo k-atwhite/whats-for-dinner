@@ -11,10 +11,10 @@ In this project, I had the opportunity to build a small website from a comp. Usi
 The hungry user can select a course or entire meal, click "Let's Cook!"and receive a suggested course from connected arrays containing dozens of options.
 
 ## Table of Contents
-1. [Contributors]()
-2. [How to use the app]()
-3. [Technologies Used]()
-4. [Future Additions]()
+1. [Contributors](https://github.com/k-atwhite/whats-for-dinner/blob/main/README.md#contributors)
+2. [How to use the app](https://github.com/k-atwhite/whats-for-dinner/blob/main/README.md#how-to-use-the-app)
+3. [Technologies Used](https://github.com/k-atwhite/whats-for-dinner/blob/main/README.md#technologies-used)
+4. [Future Additions](https://github.com/k-atwhite/whats-for-dinner/blob/main/README.md#future-additions)
 
 ## Contributors
 [Kat White](https://github.com/k-atwhite)
