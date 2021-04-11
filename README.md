@@ -7,16 +7,17 @@ Project Goals:
 - Understand how to listen to and respond to user events
 - Individualize your programming skill set
 
-In this project, I had the opportunity to build a small website from a comp. Using HMTL,
-CSS, and JavaScript, I built the
+In this project, I had the opportunity to build a small website from a comp. Using HMTL,CSS, and JavaScript, I built the page's framework, style, and functionality. 
+The hungry user can select a course or entire meal, click "Let's Cook!"and receive a suggested course from connected arrays containing dozens of options.
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals.
+## Table of Contents
+1. [Contributors]()
+2. [How to use the app]()
+3. [Technologies Used]()
+4. [Future Additions]()
 
 ## Contributors
 [Kat White](https://github.com/k-atwhite)
-
-## Table of Contents
-
 
 ## How to use the app
 ### [View in your browser](https://k-atwhite.github.io/whats-for-dinner/)
