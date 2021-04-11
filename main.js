@@ -4,9 +4,11 @@ var letsCookButton = document.querySelector(".lets-cook-button")
 var cookPot = document.querySelector("img")
 var youShouldMakeText = document.querySelector(".you-should-make")
 var dishText = document.querySelector(".dish-text")
+var clearButton = document.querySelector(".clear")
 
 // EVENT LISTENERS
 letsCookButton.addEventListener("click", displayChosenDish)
+clearButton.addEventListener("click", clearSuggestion)
 
 // EVENT HANDLERS
 function getRadioValue() {
@@ -53,4 +55,10 @@ function displayChosenDish() {
   }
   revealAndHide()
   dishText.innerText = `${(displayedDish)}!`
+}
+
+function clearSuggestion() {
+  cookPot.classList.remove("hidden")
+  youShouldMakeText.classList.add("hidden")
+  dishText.classList.add("hidden")
 }
